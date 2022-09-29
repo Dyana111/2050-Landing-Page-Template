@@ -97,6 +97,8 @@ body{
 .service_img{
     background-color: #f3f9fb;
     border-radius: 50%;
+    width: 450px;
+    height: 450px;
 }
 
 .service_subtitle{
@@ -123,3 +125,16 @@ body{
     color: #666666;
 }
 
+.check_icon{
+    width: 30px;
+    height: 30px;
+    color:  #6c63ff;
+}
+
+.why_us_img{
+    width: 600px;
+    height: 467px;
+    margin-left: -60px;
+    margin-top: -46px;
+}
+}
