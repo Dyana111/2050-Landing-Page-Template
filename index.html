@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -52,13 +53,13 @@
     <div class="container ">
         <div class="row pt-2 ">
             <div class="col-lg-6 col-md-6 col-sm-5 pt-3">
-                <h2 class="mycolor">Amazing Creative Team</h2>
+                <h2 class="mycolor wow bounceInLeft" data-wow-duration="2s" data-wow-delay="1s">Amazing Creative Team</h2>
                 <h1 class="banner_text">We Develop Best Solutions for Your Business</h1>
                 <p class="mb-5 banner_subtitle">Lorem ipsum dolor sit amet conse cotetur adipi sicing elit sed do eius mod tempor</p>
-                <a href="http://" class="myfull_story ">Full Story</a>
+                <button type="submit" class="myfull_story">Full Story</button>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-7 mt-5">
-                <img src="images1/slider-img.png"  class="img-fluid myimg_banner" alt="">
+                <img src="images1/slider-img.png"  class="img-fluid myimg_banner wow fadeInDown" data-wow-duration="2s" data-wow-delay="1.5s" alt="">
             </div>
         </div>
     </div>
@@ -72,7 +73,7 @@
             </div>
             <div class="col-lg-7 col-md-6">
                 <div>
-                    <h2 class="mycolor">About us</h2>
+                    <h2 class="mycolor wow hinge">About us</h2>
                     <h1 class="about_text">We Innovate Digital Goods</h1>
                     <div class="row mt-5 mb-4">
                         <div class="col-lg-6">
@@ -84,7 +85,7 @@
                                 sed do eiusmod te mpor incididunt ut labore et dolone.</p>
                         </div>
                     </div>
-                    <a href="http://" class="about_link ">More About Us</a>
+                    <a href="http://" class="about_link wow slideInDown" data-wow-duration="4s">More About Us</a>
                     <hr class=" about_line  pb-5">
                 </div>
             </div>
@@ -102,8 +103,8 @@
                     <li class="list-group-item border border-0 ">
                         <div>
                             <div class="pb-3 ">
-                                <span>
-                                    <img src="https://img.icons8.com/fluency-systems-filled/48/000000/stack-of-paper.png" class="mylist_icons" />
+                                <span >
+                                    <img src="https://img.icons8.com/fluency-systems-filled/48/000000/stack-of-paper.png" class="mylist_icons " />
                                 </span>
                             </div>
                             <div>
@@ -584,5 +585,9 @@
 
     <!-- end buy -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="JS/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
   </body>
 </html>
